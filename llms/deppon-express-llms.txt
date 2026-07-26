@@ -1,0 +1,17 @@
+# Deppon Express
+
+> Deppon Express (德邦快递), operated by Deppon Logistics Co., Ltd., is a major Chinese express delivery and logistics provider specializing in large-parcel (heavy/bulky) express, less-than-truckload freight, full-truckload, air freight, warehousing, supply chain, and cross-border services. Developer and enterprise integration is offered through the Deppon Open Platform (德邦开放平台, established 2015), which exposes system-integration APIs for order creation, standard track/tracking queries, and electronic waybill (电子面单) printing to contracted monthly-settlement customers.
+
+## APIs
+
+- [Deppon Open Platform](https://dpopen.deppon.com/): Enterprise integration hub exposing logistics APIs — order service (下单/订单), standard track/tracking (轨迹) queries, and express electronic waybill (电子面单) selection/printing. Access requires a monthly-settlement customer agreement with Deppon.
+
+## Docs
+
+- [Deppon Open Platform (Developer Portal)](https://dpopen.deppon.com/): Integration guides, docking documents, and API interface documentation.
+- [Deppon Express Website](https://www.deppon.com/): Corporate site — shipping, tracking, and large-item pickup services.
+
+## Notes
+
+- Public OpenAPI/AsyncAPI specifications are not published; API access is granted to contracted partners after a monthly-settlement agreement.
+- Metadata source: APIs.json profile at https://raw.githubusercontent.com/api-evangelist/deppon-express/refs/heads/main/apis.yml

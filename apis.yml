@@ -1,9 +1,28 @@
 aid: deppon-express
 name: Deppon Express
-description: 'Deppon Express is a company surfaced as a portfolio company of hongshan and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Deppon Express (德邦快递), operated by Deppon Logistics Co., Ltd., is a
+  major Chinese express delivery and logistics provider specializing in large-parcel
+  (heavy/bulky) express, less-than-truckload freight, full-truckload, air freight,
+  warehousing, supply chain, and cross-border services. Founded from Cui''s Freight
+  Company (1996) and incorporated in 2009, it became part of the JD Logistics group
+  in 2022 and ranks among China''s largest express carriers by market share. For
+  developers and enterprise partners, Deppon runs the Deppon Open Platform (德邦开放平台,
+  established 2015) at dpopen.deppon.com, offering system-integration APIs for order
+  creation, standard track/tracking queries, and electronic waybill (面单) printing,
+  with access granted to contracted monthly-settlement customers.'
 url: https://raw.githubusercontent.com/api-evangelist/deppon-express/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.deppon.com/cms/console/sites/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +31,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
-apis: []
+- Logistics
+- Express Delivery
+- Shipping
+- Freight
+- Supply Chain
+- Tracking
+- E-commerce
+- China
+apis:
+- name: Deppon Open Platform
+  description: 'The Deppon Open Platform (德邦开放平台) is Deppon''s enterprise integration
+    hub, exposing logistics system-integration APIs to contracted partners: order
+    service (下单/订单) interfaces, standard track/tracking (轨迹) queries, and express
+    electronic waybill (电子面单) selection and printing. Access requires a monthly-settlement
+    customer agreement with Deppon.'
+  humanURL: https://dpopen.deppon.com/
+  baseURL: https://dpopen.deppon.com/
+  tags:
+  - Logistics
+  - Shipping
+  - Tracking
+  - Order Management
+  - Electronic Waybill
+  properties:
+  - type: DeveloperPortal
+    url: https://dpopen.deppon.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/deppon-express-domain-security.yml
+- type: Website
+  url: https://www.deppon.com/
+- type: DeveloperPortal
+  url: https://dpopen.deppon.com/
+- type: Documentation
+  url: https://dpopen.deppon.com/
+- type: LLMsTxt
+  url: llms/deppon-express-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
